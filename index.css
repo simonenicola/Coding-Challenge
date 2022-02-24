@@ -1,0 +1,76 @@
+/* sfondo e immagine */
+body{
+  background-image: url(background.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  margin-left: 20%;
+  margin-top: 5%;
+  margin-right: 20%;
+  margin-bottom: 15%;
+}
+
+div.impo{
+  background-color: #131a17a8;
+  border-radius: 30px;
+  height: 1000px
+}
+
+/* immagine2 */
+#dim{
+    max-width: 20%;
+    margin-top: 5%
+}
+
+/* capo pagina  */
+header,nav{
+  text-align: center;
+  color: #00dd00
+}
+
+#verde{
+  width: 80%;
+  margin-left: 10%;
+  height:45px;
+  background-color: green;
+}
+
+nav button{
+    margin-block: 10px;
+}
+
+/* corpo centrale */
+
+main>section{
+  padding-left: 3%;
+  color: white;
+  font-weight: lighter;
+}
+
+
+input,h3{
+  display: inline-block;
+  font-size:x-large;
+  font-style: italic;
+}
+
+
+   /* stato carica batteria */
+#red{
+  width:150px;
+  height: 20px;
+  background: red;
+  border-radius:25px;
+}
+#orange{
+  width:300px;
+  height: 20px;
+  background:orange;
+  border-radius:25px
+
+}
+#green{
+  width:500px;
+  height: 20px;
+  background:green;
+  border-radius:25px;
+}
